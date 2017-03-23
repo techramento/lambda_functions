@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error responses calls the callback with an error object 1`] = `
+Object {
+  "code": 999,
+  "errors": Array [
+    Object {
+      "domain": "usageLimits",
+      "message": "Bad Request",
+      "reason": "keyInvalid",
+    },
+  ],
+  "message": "mock error",
+}
+`;
+
+exports[`error responses calls the callback with an error object 2`] = `
+Object {
+  "body": "{\\"details\\":\\"[{\\\\\\"domain\\\\\\":\\\\\\"usageLimits\\\\\\",\\\\\\"message\\\\\\":\\\\\\"Bad Request\\\\\\",\\\\\\"reason\\\\\\":\\\\\\"keyInvalid\\\\\\"}]\\",\\"error\\":{\\"message\\":\\"mock error\\"},\\"input\\":{},\\"message\\":\\"undefined: mock error\\"}",
+  "statusCode": 999,
+}
+`;
+
+exports[`error responses provides a default error code when one is not provided 1`] = `
+Object {
+  "message": "Mock Exception",
+  "name": "ReferenceError",
+}
+`;
+
+exports[`error responses provides a default error code when one is not provided 2`] = `
+Object {
+  "body": "{\\"error\\":{\\"message\\":\\"Mock Exception\\",\\"name\\":\\"ReferenceError\\"},\\"input\\":{},\\"message\\":\\"ReferenceError: Mock Exception\\"}",
+  "statusCode": 500,
+}
+`;

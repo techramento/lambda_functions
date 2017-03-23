@@ -1,0 +1,26 @@
+{
+  "error": {
+    "code": 999,
+    "errors": [
+      {
+        "domain": "usageLimits",
+        "message": "Bad Request",
+        "reason": "keyInvalid"
+      }
+    ],
+    "message": "mock error"
+  },
+  "ok": {
+    "items": [
+      {
+        "description": "Name of the Meetup\nThursday, January 01 at 12:00 AM\n\nDESCRIPTION...\n\nhttps://example.org/",
+        "location": "Venue (123 Main Street, Sacramento, CA 95811)",
+        "start": {
+          "dateTime": "1970-01-01T00:00:00Z"
+        },
+        "summary": "Name of the Meetup"
+      }
+    ],
+    "summary": "Events - Name of the Meetup"
+  }
+}

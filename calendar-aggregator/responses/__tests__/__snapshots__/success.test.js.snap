@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`success responses calls the callback with the calendar data 1`] = `
+Object {
+  "body": "{\\"data\\":[{\\"item\\":\\"mock\\"}],\\"input\\":{}}",
+  "statusCode": 200,
+}
+`;

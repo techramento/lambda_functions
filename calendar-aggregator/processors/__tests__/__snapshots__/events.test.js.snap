@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`events processor transforms the data of each event item 1`] = `
+Array [
+  Object {
+    "description": "The Name of the Meetup
+Thursday, January 01 at 7:00 PM
+
+EVENT DESCRIPTION...
+
+https://example.org/",
+    "meetup": Object {
+      "description": "EVENT DESCRIPTION...",
+      "group": "The Name of the Meetup",
+      "short_name": "MyMeetup",
+      "url": "https://example.org/",
+    },
+  },
+]
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sortOrder processor sorts the events by their start date 1`] = `
+Array [
+  Object {
+    "start": Object {
+      "dateTime": "2017-01-01T00:00:00Z",
+    },
+  },
+  Object {
+    "start": Object {
+      "dateTime": "2017-02-01T11:59:59Z",
+    },
+  },
+  Object {
+    "start": Object {
+      "dateTime": "2017-02-01T11:59:59Z",
+    },
+  },
+  Object {
+    "start": Object {
+      "dateTime": "2017-12-31T11:59:59Z",
+    },
+  },
+]
+`;

@@ -1,0 +1,17 @@
+{
+  "apiError": {
+    "code": 999,
+    "errors": [
+      {
+        "domain": "usageLimits",
+        "message": "Bad Request",
+        "reason": "keyInvalid"
+      }
+    ],
+    "message": "mock error"
+  },
+  "exception": {
+    "message": "Mock Exception",
+    "name": "ReferenceError"
+  }
+}

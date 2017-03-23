@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calendar requests fetches and processes a specific calendar 1`] = `
+Array [
+  Object {
+    "description": "Name of the Meetup
+Thursday, January 01 at 12:00 AM
+
+DESCRIPTION...
+
+https://example.org/",
+    "location": "Venue (123 Main Street, Sacramento, CA 95811)",
+    "meetup": Object {
+      "description": "DESCRIPTION...",
+      "group": "Name of the Meetup",
+      "short_name": "APIKEY",
+      "url": "https://example.org/",
+    },
+    "start": Object {
+      "dateTime": "1970-01-01T00:00:00Z",
+    },
+    "summary": "Name of the Meetup",
+  },
+]
+`;
+
+exports[`calendar requests processes calendar error responses 1`] = `[TypeError: Cannot read property 'reduce' of undefined]`;
