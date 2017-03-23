@@ -13,6 +13,7 @@
   "homepage": "https://techramento.org",
   "twitter": "techramento",
   "scripts": {
+    "deploy": "serverless deploy",
     "lint:js": "prettier-eslint --write \"**/*.js\" && eslint --ignore-path .gitignore --fix .",
     "lint": "npm-run-all --parallel lint:*",
     "pretest": "npm run lint",
