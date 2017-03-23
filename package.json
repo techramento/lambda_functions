@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "calendar_aggregator",
+  "version": "1.0.0",
+  "description": "Techramento Event Calendar Aggregator",
+  "main": "index.js",
+  "author": "Derek Lindahl",
+  "license": "",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/techramento/calendar_aggregator/issues"
+  },
+  "homepage": "https://techramento.org",
+  "twitter": "techramento",
+  "scripts": {
+    "test": "echo TODO & exit 1"
+  },
+  "engines": {
+    "node": "7.5.0"
+  },
+  "contributors": [
+    {
+      "name": "Derek Lindahl",
+      "email": "derek@techramento.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techramento/calendar_aggregator.git"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
