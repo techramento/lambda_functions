@@ -1,0 +1,15 @@
+exclude:
+  - node_modules/**
+  - '!node_modules/isomorphic-fetch/**'
+functions:
+  calendars:
+    events:
+      - http: get /
+    handler: handler.calendars
+provider:
+  name: aws
+  profile: techramento
+  runtime: nodejs6.10
+  stage: prod
+role: "arn:aws:iam::964306185985:role/techramento-derek"
+service: calendar-aggregator

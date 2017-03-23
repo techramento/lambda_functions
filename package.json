@@ -1,24 +1,18 @@
 {
   "private": true,
-  "name": "calendar_aggregator",
+  "name": "lambda_functions",
   "version": "1.0.0",
-  "description": "Techramento Event Calendar Aggregator",
+  "description": "Techramento Lambda Functions",
   "main": "index.js",
   "author": "Derek Lindahl",
   "license": "",
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/techramento/calendar_aggregator/issues"
+    "url": "https://github.com/techramento/lambda_functions/issues"
   },
   "homepage": "https://techramento.org",
   "twitter": "techramento",
-  "scripts": {
-    "deploy": "serverless deploy",
-    "lint:js": "prettier-eslint --write \"**/*.js\" && eslint --ignore-path .gitignore --fix .",
-    "lint": "npm-run-all --parallel lint:*",
-    "pretest": "npm run lint",
-    "test": "jest"
-  },
+  "scripts": {},
   "engines": {
     "node": "7.5.0"
   },
@@ -30,23 +24,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/techramento/calendar_aggregator.git"
+    "url": "git+https://github.com/techramento/lambda_functions.git"
   },
-  "dependencies": {
-    "dotenv": "^4.0.0",
-    "isomorphic-fetch": "^2.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^3.7.1",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.4.2",
-    "eslint-plugin-standard": "^2.0.1",
-    "jest": "^19.0.2",
-    "npm-run-all": "^4.0.2",
-    "prettier-eslint-cli": "^3.1.2",
     "serverless": "^1.9.0"
-  },
-  "jest": {
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(test.js|json|node)$"
   }
 }

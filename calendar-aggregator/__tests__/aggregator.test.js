@@ -1,6 +1,5 @@
 const aggregator = require('../aggregator')
-
-const event = Object.freeze({})
+const event = require('../event.json')
 
 test('calendar aggregation', (done) =>
   aggregator(event, (err, response) => {
