@@ -1,3 +1,6 @@
+# Dotenv
+.env
+
 # package directories
 node_modules
 
