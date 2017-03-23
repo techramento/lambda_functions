@@ -1,11 +1,21 @@
-exclude:
-  - node_modules/**
-  - '!node_modules/isomorphic-fetch/**'
 functions:
   calendars:
     events:
       - http: get /
     handler: handler.calendars
+package:
+  exclude:
+    - 'coverage/**'
+    - '**/__fixtures__/**'
+    - '**/__tests__/**'
+    - 'yarn.lock'
+    - 'jest.config.js'
+    - '.**'
+    - 'node_modules/**/*.md'
+    - 'node_modules/**/LICENSE'
+    - 'node_modules/**/test/**'
+plugins:
+  - serverless-plugin-include-dependencies
 provider:
   name: aws
   profile: techramento

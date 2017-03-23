@@ -46,7 +46,8 @@
     "nock": "^9.0.9",
     "npm-run-all": "^4.0.2",
     "prettier-eslint-cli": "^3.1.2",
-    "serverless": "^1.9.0"
+    "serverless": "^1.9.0",
+    "serverless-plugin-include-dependencies": "^2.0.0"
   },
   "jest": {
     "setupFiles": [
