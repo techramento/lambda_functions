@@ -1,18 +1,8 @@
 const eventsProcessor = require('../events')('MyMeetup')
-
-const description = `The Name of the Meetup
-Thursday, January 01 at 7:00 PM
-
-EVENT DESCRIPTION...
-
-https://example.org/`
+const MockEvents = require('../../__fixtures__/events.json')
 
 const MockCalendar = {
-  items: [
-    {
-      description
-    }
-  ]
+  items: MockEvents
 }
 
 describe('events processor', () => {

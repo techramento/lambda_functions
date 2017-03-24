@@ -19,6 +19,6 @@ module.exports = function calendarRequest (key) {
     )
       .then((response) => response.json())
       .then(errorsProcessor)
-      .then(eventsProcessor(key))
+      .then(eventsProcessor(calendarName))
   }
 }

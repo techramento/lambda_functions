@@ -1,20 +1,28 @@
 [
   {
+    "description": "The Name of the Meetup\nThursday, January 01 at 7:00 PM\n\nEVENT DESCRIPTION...\n\nhttps://example.org/",
+    "location": null,
     "start": {
       "dateTime": "2017-12-31T11:59:59Z"
     }
   },
   {
+    "description": "The Name of the Meetup\nThursday, January 01 at 7:00 PM\n\nEVENT DESCRIPTION...\n\nhttps://example.org/",
+    "location": "The Whitehouse (1600 Pennsylvania Ave NW, Washington, DC 20500)",
     "start": {
       "dateTime": "2017-01-01T00:00:00Z"
     }
   },
   {
+    "description": "The Name of the Meetup\nThursday, January 01 at 7:00 PM\n\nEVENT DESCRIPTION...\n\nhttps://example.org/",
+    "location": "The Whitehouse (1600 Pennsylvania Ave NW, Washington, DC 20500)",
     "start": {
       "dateTime": "2017-02-01T11:59:59Z"
     }
   },
   {
+    "description": "The Name of the Meetup\nThursday, January 01 at 7:00 PM\n\nEVENT DESCRIPTION...\n\nhttps://example.org/",
+    "location": "The Whitehouse (1600 Pennsylvania Ave NW, Washington, DC 20500)",
     "start": {
       "dateTime": "2017-02-01T11:59:59Z"
     }

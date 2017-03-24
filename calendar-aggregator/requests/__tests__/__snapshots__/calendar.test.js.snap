@@ -9,11 +9,19 @@ Thursday, January 01 at 12:00 AM
 DESCRIPTION...
 
 https://example.org/",
-    "location": "Venue (123 Main Street, Sacramento, CA 95811)",
+    "location": Object {
+      "city": "Sacramento",
+      "name": "Venue",
+      "number": "123",
+      "state": "CA",
+      "street": "Main",
+      "type": "Street",
+      "zip": "95811",
+    },
     "meetup": Object {
       "description": "DESCRIPTION...",
       "group": "Name of the Meetup",
-      "short_name": "APIKEY",
+      "short_name": "SacJS",
       "url": "https://example.org/",
     },
     "start": Object {

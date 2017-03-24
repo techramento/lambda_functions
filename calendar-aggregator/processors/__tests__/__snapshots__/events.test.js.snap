@@ -9,11 +9,96 @@ Thursday, January 01 at 7:00 PM
 EVENT DESCRIPTION...
 
 https://example.org/",
+    "location": null,
     "meetup": Object {
       "description": "EVENT DESCRIPTION...",
       "group": "The Name of the Meetup",
       "short_name": "MyMeetup",
       "url": "https://example.org/",
+    },
+    "start": Object {
+      "dateTime": "2017-12-31T11:59:59Z",
+    },
+  },
+  Object {
+    "description": "The Name of the Meetup
+Thursday, January 01 at 7:00 PM
+
+EVENT DESCRIPTION...
+
+https://example.org/",
+    "location": Object {
+      "city": "Washington",
+      "name": "The Whitehouse",
+      "number": "1600",
+      "state": "DC",
+      "street": "Pennsylvania",
+      "suffix": "NW",
+      "type": "Ave",
+      "zip": "20500",
+    },
+    "meetup": Object {
+      "description": "EVENT DESCRIPTION...",
+      "group": "The Name of the Meetup",
+      "short_name": "MyMeetup",
+      "url": "https://example.org/",
+    },
+    "start": Object {
+      "dateTime": "2017-01-01T00:00:00Z",
+    },
+  },
+  Object {
+    "description": "The Name of the Meetup
+Thursday, January 01 at 7:00 PM
+
+EVENT DESCRIPTION...
+
+https://example.org/",
+    "location": Object {
+      "city": "Washington",
+      "name": "The Whitehouse",
+      "number": "1600",
+      "state": "DC",
+      "street": "Pennsylvania",
+      "suffix": "NW",
+      "type": "Ave",
+      "zip": "20500",
+    },
+    "meetup": Object {
+      "description": "EVENT DESCRIPTION...",
+      "group": "The Name of the Meetup",
+      "short_name": "MyMeetup",
+      "url": "https://example.org/",
+    },
+    "start": Object {
+      "dateTime": "2017-02-01T11:59:59Z",
+    },
+  },
+  Object {
+    "description": "The Name of the Meetup
+Thursday, January 01 at 7:00 PM
+
+EVENT DESCRIPTION...
+
+https://example.org/",
+    "location": Object {
+      "city": "Washington",
+      "name": "The Whitehouse",
+      "number": "1600",
+      "state": "DC",
+      "street": "Pennsylvania",
+      "suffix": "NW",
+      "type": "Ave",
+      "zip": "20500",
+    },
+    "meetup": Object {
+      "description": "EVENT DESCRIPTION...",
+      "group": "The Name of the Meetup",
+      "short_name": "MyMeetup",
+      "url": "https://example.org/",
+    },
+    "start": Object {
+      "dateTime": "2017-02-01T11:59:59Z",
     },
   },
 ]

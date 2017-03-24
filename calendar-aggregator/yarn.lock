@@ -2619,6 +2619,12 @@ p-locate@^2.0.0:
   dependencies:
     p-limit "^1.1.0"
 
+parse-address@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/parse-address/-/parse-address-0.0.6.tgz#24e045190a79cb207cc73b7d9d91193b5abd0334"
+  dependencies:
+    xregexp "^3.1.1"
+
 parse-glob@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/parse-glob/-/parse-glob-3.0.4.tgz#b2c376cfb11f35513badd173ef0bb6e3a388391c"
@@ -3673,6 +3679,10 @@ xmlbuilder@2.6.2, xmlbuilder@>=2.4.6:
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-2.6.2.tgz#f916f6d10d45dc171b1be2e6e673fb6e0cc35d0a"
   dependencies:
     lodash "~3.5.0"
+
+xregexp@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-3.1.1.tgz#8ee18d75ef5c7cb3f9967f8d29414a6ca5b1a184"
 
 "xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0:
   version "4.0.1"

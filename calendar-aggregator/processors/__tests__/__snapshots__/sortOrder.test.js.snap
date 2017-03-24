@@ -3,21 +3,49 @@
 exports[`sortOrder processor sorts the events by their start date 1`] = `
 Array [
   Object {
+    "description": "The Name of the Meetup
+Thursday, January 01 at 7:00 PM
+
+EVENT DESCRIPTION...
+
+https://example.org/",
+    "location": "The Whitehouse (1600 Pennsylvania Ave NW, Washington, DC 20500)",
     "start": Object {
       "dateTime": "2017-01-01T00:00:00Z",
     },
   },
   Object {
+    "description": "The Name of the Meetup
+Thursday, January 01 at 7:00 PM
+
+EVENT DESCRIPTION...
+
+https://example.org/",
+    "location": "The Whitehouse (1600 Pennsylvania Ave NW, Washington, DC 20500)",
     "start": Object {
       "dateTime": "2017-02-01T11:59:59Z",
     },
   },
   Object {
+    "description": "The Name of the Meetup
+Thursday, January 01 at 7:00 PM
+
+EVENT DESCRIPTION...
+
+https://example.org/",
+    "location": "The Whitehouse (1600 Pennsylvania Ave NW, Washington, DC 20500)",
     "start": Object {
       "dateTime": "2017-02-01T11:59:59Z",
     },
   },
   Object {
+    "description": "The Name of the Meetup
+Thursday, January 01 at 7:00 PM
+
+EVENT DESCRIPTION...
+
+https://example.org/",
+    "location": null,
     "start": Object {
       "dateTime": "2017-12-31T11:59:59Z",
     },
