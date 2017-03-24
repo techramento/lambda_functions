@@ -3,6 +3,9 @@
 exports[`success responses calls the callback with the calendar data 1`] = `
 Object {
   "body": "{\\"data\\":[{\\"item\\":\\"mock\\"}],\\"input\\":{}}",
+  "headers": Object {
+    "Access-Control-Allow-Origin": "*",
+  },
   "statusCode": 200,
 }
 `;

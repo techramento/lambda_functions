@@ -5,6 +5,9 @@ module.exports = function successResponse (input, callback) {
         data,
         input
       }),
+      headers: {
+        'Access-Control-Allow-Origin': '*'
+      },
       statusCode: 200
     }
     try {

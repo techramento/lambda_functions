@@ -1,7 +1,10 @@
 functions:
   calendars:
     events:
-      - http: get /
+      - http:
+          path: /
+          method: get
+          cors: true
     handler: handler.calendars
 package:
   exclude:
